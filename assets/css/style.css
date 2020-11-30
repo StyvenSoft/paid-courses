@@ -554,6 +554,7 @@ hr {
     line-height: 48px;
     border: 2px solid transparent;
     box-shadow: 0 0 10px 3px rgba(108, 98, 98, 0.2);
+    z-index: 1;
 }
 @media (max-width: 575px) {
     #scrollUp,
@@ -2409,7 +2410,7 @@ hr {
     padding: 0 !important;
 }
 .slider-height {
-    min-height: 854px;
+    min-height: 730px;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -3023,7 +3024,7 @@ hr {
     width: 100%;
 }
 .about-area3 {
-    margin-top: 100px;
+    padding-top: 120px;
 }
 .about-area3 .support-wrapper {
     display: flex;
