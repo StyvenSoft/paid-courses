@@ -1564,15 +1564,12 @@ hr {
     -moz-animation-name: float-bob;
     -moz-animation-duration: 2s;
     -moz-animation-iteration-count: infinite;
-    -moz-animation-timing-function: linear;
     -ms-animation-name: float-bob;
     -ms-animation-duration: 2s;
     -ms-animation-iteration-count: infinite;
-    -ms-animation-timing-function: linear;
     -o-animation-name: float-bob;
     -o-animation-duration: 2s;
     -o-animation-iteration-count: infinite;
-    -o-animation-timing-function: linear;
 }
 @-webkit-keyframes float-bob {
     0% {
@@ -2396,15 +2393,18 @@ hr {
 }
 .mobile_menu .slicknav_menu .slicknav_nav {
     margin-top: 9px !important;
-    background: #c86fff;
+    background: #6074ff;
+    text-align: center;
 }
 .mobile_menu .slicknav_menu .slicknav_nav a:hover {
     background: transparent;
     color: #c86fff;
 }
 .mobile_menu .slicknav_menu .slicknav_nav a {
-    font-size: 15px;
+    font-size: 17px;
     padding: 7px 10px;
+    font-weight: 600;
+    color: #fff;
 }
 .mobile_menu .slicknav_menu .slicknav_nav .slicknav_item a {
     padding: 0 !important;
@@ -3995,7 +3995,6 @@ hr {
 .blog_area a:hover,
 .blog_area a :hover {
     background: -webkit-linear-gradient(131deg, #c86fff 0%, #c86fff 99%);
-    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-decoration: none;
     transition: 0.4s;
@@ -4044,7 +4043,6 @@ hr {
 .single-blog .tag {
     text-align: left;
     display: inline-block;
-    float: left;
     font-size: 13px;
     font-weight: 300;
     margin-right: 22px;
