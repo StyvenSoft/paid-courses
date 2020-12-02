@@ -385,15 +385,6 @@ $('.courses-actives').slick({
       });
 
 
-/* 10. WOW active */
-    new WOW().init();
-
-// 11. ---- Mailchimp js --------//  
-    function mailChimp() {
-      $('#mc_embed_signup').find('form').ajaxChimp();
-    }
-    mailChimp();
-
 
 // 12 Pop Up Img
     var popUp = $('.single_gallery_part, .img-pop-up');
@@ -418,21 +409,5 @@ $('.courses-actives').slick({
       delay: 10,
       time: 3000
     });
-
-
-//16. Overlay
-  $(".snake").snakeify({
-    speed: 200
-  });
-
-
-//17.  Progress barfiller
-
-  $('#bar1').barfiller();
-  $('#bar2').barfiller();
-  $('#bar3').barfiller();
-  $('#bar4').barfiller();
-  $('#bar5').barfiller();
-  $('#bar6').barfiller();
 
 })(jQuery);
