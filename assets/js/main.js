@@ -404,10 +404,5 @@ $('.courses-actives').slick({
       });
     }
 
-/* 13. counterUp*/
-    $('.counter').counterUp({
-      delay: 10,
-      time: 3000
-    });
 
 })(jQuery);
